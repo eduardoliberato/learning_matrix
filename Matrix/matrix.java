@@ -13,7 +13,7 @@ public class matrix {
         System.out.println("Number of lines and columns: \n");
         int n = sc.nextInt();
 
-        //is like a vector ou a vector, this two [] made the matrix 
+        //is like a vector of a vector, this two [] made the matrix 
         int[][] mat = new int[n][n];
 
         System.out.println("Digit the numbers of the matrix: ");
@@ -30,7 +30,7 @@ public class matrix {
             System.out.println(mat[i][i]);
         }
 
-        //numbers that are negative
+        //numbers that are negative             
 
         int count = 0;
         for(int i=0; i<n ; i++){
